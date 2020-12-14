@@ -4,9 +4,19 @@
 }
 
 .nom-logo{
-  margin-right: 55%;
+  margin-right: 77%;
 }
 
 .logo{
+
+}
+
+.first-slide{
+  font-size: 50px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
   
 }
+
+.image{
+  opacity: 0.9;
+  bottom: left;
