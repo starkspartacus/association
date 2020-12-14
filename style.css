@@ -20,3 +20,9 @@
 .image{
   opacity: 0.9;
   bottom: left;
+}
+
+.menu ul li > a{
+  text-decoration:underline;
+  font-weight: bold;
+}
