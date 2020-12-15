@@ -76,3 +76,32 @@ section article > .parents{
 .footer{
   background-color: rgb(44, 14, 20);
 }
+
+.annee{
+  font-size: 300px;
+  color: rgba(226, 182, 215, 0.096);
+}
+
+.chiffres{
+  color: #d3d6d8;
+  position: absolute;
+  margin-top: 15%;
+  font-size: 30px;
+  
+}
+
+.chiffres ul > li{
+  list-style: none;
+}
+
+.button_stages{
+  background-color: rgb(202, 77, 165);
+  text-align: center;
+  border: solid;
+  color: #d3d6d8;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 35px;
+  cursor: pointer;
+}
