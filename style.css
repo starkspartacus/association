@@ -1,10 +1,14 @@
+body{
+ margin: 0;
+}
 .container-fluid{
   background:#eee;
   
 }
 
 .nom-logo{
-  margin-right: 77%;
+  margin-right: 80%;
+  
 }
 
 .logo{
