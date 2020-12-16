@@ -73,9 +73,6 @@ section article > .enfant{
 section article > .parents{
   margin-left: 50%;
 }
-.footer{
-  background-color: rgb(44, 14, 20);
-}
 
 .annee{
   font-size: 300px;
@@ -97,11 +94,61 @@ section article > .parents{
 .button_stages{
   background-color: rgb(202, 77, 165);
   text-align: center;
-  border: solid;
+  border-radius: 50px;
   color: #d3d6d8;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
   margin-left: 35px;
   cursor: pointer;
+  border: solid;
+}
+
+.annee_deux{
+  font-size: 300px;
+  position: absolute;
+  right: 800px;
+  color: rgba(220, 206, 231, 0.205);
+  z-index: 3;
+  
+}
+
+.parents{
+  z-index: 2;
+  position: relative;
+}
+.chiffres_deux ul > li{
+  list-style: none;
+}
+
+.chiffres_deux{
+  position: absolute;
+  margin-top: 11%;
+  color: #d3d6d8;
+  font-size: 30px;
+}
+
+.button_sejour{
+  border-radius: 50px;
+  border: solid;
+  text-align: center;
+  display: inline-block;
+  background-color: rgb(146, 177, 235);
+  font-size: 16px;
+  margin-left: 30px;
+  color: #d3d6d8;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button_sejour:hover{
+  background-color: rgb(202, 77, 165);
+}
+
+.button_stages:hover{
+  background-color: rgb(146, 177, 235);
+}
+
+.footer{
+  background-color: rgb(44, 14, 20);
 }
