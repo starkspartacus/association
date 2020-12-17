@@ -1,5 +1,6 @@
 
 
+
 .grid{
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
@@ -23,3 +24,58 @@
   grid-row-end: 4;
 }
 
+.footer{
+  background-color: rgba(17, 7, 9, 0.842);
+  
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  padding: 10px;
+
+}
+
+.left{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  color: #d3d6d8;
+}
+
+.middle{
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.right{
+  grid-column-start: 3;
+  grid-column-end: 4;
+  color: #d3d6d8;
+}
+
+.form-check{
+  color: #d3d6d8;
+  
+}
+
+.email{
+  color: #eee;
+  font-size: 10px;
+}
+
+.left > a {
+  padding: 10px;
+  color: #d3d6d8;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.ancre{
+  position: relative;
+  display: flex;
+  justify-content: end;
+  color: rgba(29, 82, 228, 0.562);
+}

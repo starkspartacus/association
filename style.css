@@ -208,3 +208,54 @@ html{
   justify-content: end;
   color: rgba(29, 82, 228, 0.562);
 }
+
+/* media query */
+
+@media screen and (min-width: 780px) and (max-width: 979px){
+  .container-fluid{
+    width: 50%;
+    
+  }
+
+  .article-intro{
+    width: 100%;
+    
+  }
+
+  .article-essentiel{
+    width: 100%;
+  }
+
+ .second-section  .annee{
+  display: none;
+ }
+
+ .section-trois .annee_deux{
+   display: none;
+ }
+
+ .section-trois  ul li{
+   margin-top: -40%;
+   z-index: 3;
+   
+   font-size: 26px;
+ }
+
+
+
+  .form-control{
+    display: none;
+  }
+
+  .carousel-caption > .first-slide{
+    display: none;
+  }
+
+  .menu ul  .nav-item > a{
+    width: 200%;
+  }
+
+  .grid-container{
+    font-size: 50%;
+  }
+}
