@@ -97,6 +97,9 @@ html{
  
  width: 400px;
  border: none;
- 
- 
+}
+
+.boutton{
+  border-radius: 50px;
+  border-color: linen;
 }
