@@ -79,3 +79,24 @@ html{
   justify-content: end;
   color: rgba(29, 82, 228, 0.562);
 }
+
+.card{
+  width: 400px;
+  height: 400px;
+  margin-left: 20px;
+}
+
+
+
+.info{
+  font-size: 14px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.avenir{
+ 
+ width: 400px;
+ border: none;
+ 
+ 
+}
