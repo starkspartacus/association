@@ -103,3 +103,25 @@ html{
   border-radius: 50px;
   border-color: linen;
 }
+
+@media screen and (min-width: 780px) and (max-width: 979px){
+  .card{
+    flex-direction: column;
+    width: 25%;
+    
+    
+  }
+
+  .avenir{
+    display: flex;
+    position: relative;
+    margin-top: 300px;
+    width: 100%;
+    
+    
+  }
+
+  .Evenement_title{
+    display: none;
+  }
+}
